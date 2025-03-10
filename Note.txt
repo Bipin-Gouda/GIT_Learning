@@ -1,3 +1,4 @@
 Initialize a repo - Only creates a local Git repository (.git/ folder) in your project directory (so it does track changes as it has .git but it is not connected to online Github).
-Publish to Github - Uploads (pushes) your local repository to a GitHub repository. If there isnt it creates one.
+Publish to Github - Uploads (pushes) your local repository to a GitHub repository. If there isnt it creates one. (uses git CLI internally)
+Will have to create folder on own in both the places or use CLI
 You can have different folder names in your local system and on GitHub. The name of your local folder does not have to match the GitHub repository name.
